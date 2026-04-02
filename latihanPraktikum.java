@@ -18,7 +18,7 @@ public static void main(String[] args) {
     char nilai = input.next().toUpperCase().charAt(0);
 
     System.out.print("Masukkan jumlah SKS: ");
-        int sks = input.nextInt();
+    int sks = input.nextInt();
     double bobot = 0;
 
     switch (nilai) {
