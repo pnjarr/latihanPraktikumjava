@@ -1,7 +1,5 @@
 import java.util.Scanner;
 public class latihanPraktikum {
-
-public class HitungIP {
 public static void main(String[] args) {
     Scanner input = new Scanner (System.in);
     int jumlahMatkul;
@@ -16,7 +14,7 @@ public static void main(String[] args) {
 
     System.out.print("Masukkan nilai (A/B/C/D/E): ");
     char nilai = input.next().toUpperCase().charAt(0);
-
+    
     System.out.print("Masukkan jumlah SKS: ");
     int sks = input.nextInt();
     double bobot = 0;
@@ -54,6 +52,5 @@ public static void main(String[] args) {
 
     System.out.println("Maksimal SKS yang bisa diambil: " + maksSKS);
 
-}
 }
 }
